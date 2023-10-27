@@ -1,0 +1,40 @@
+h1{
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.classWorkOption{
+    background-color: lightgray;
+    max-width: 80%;
+}
+.classWorkOption:hover{
+    background-color: teal;
+    color: white;
+}
+#classWorkType{
+    border: 1px solid grey;
+    border-radius: 30px;
+    margin-left:45%;
+    padding-right: 10px;
+}
+.gitInfo{
+    margin-left: 5%;
+}
+.secondaryTable{
+    margin-left: 10%;
+}
+.headerRow{
+    font-size: 13pt;
+    font-weight: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+td{
+    padding-right: 10px;
+}
+.primaryTable:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.primaryTable{
+    color: grey;
+}
