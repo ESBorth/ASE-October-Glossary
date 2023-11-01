@@ -4,116 +4,17 @@
         <meta charset = "utf-8">
         <title>Classwork Directory</title>
         <link rel = "stylesheet" href = "style.css">
-        <link rel = "javascript" href = "main.js">
+        <script src = "main.js"></script>
     </head>
     <body>
         <h1>Software Development Institute</h1>
-        <select label = "Classwork Type" name = "Type" id = "classWorkType">
-            <option value = "cli" class = "classWorkOption">CLI</option>
-            <option value = "html" class = "classWorkOption">HTML</option>
-        </select>
-        <div class = "gitInfo" id = "gitInfoID">
-            <table id = "gitInfoTableID" class = "gitInfoTable">
-                <tr class = "headerRow">
-                    <td>Command</td>
-                    <td>Result</td>
-                </tr>
-                <tr class = "primaryTable"> <!--add-->
-                    <td>add .</td>
-                    <td>git: Prepares untracked items to be commited</td>
-                </tr>
-                <tr class = "primaryTable"> <!--branch-->
-                    <td>branch</td>
-                    <td>git: Creates a new version of the code for you to edit, with its own history.</td>
-                </tr>
-                <tr class = "primaryTable"> <!--cat command-->
-                    <td>cat</td>
-                    <td>Displays the file content in the CLI</td>
-                </tr>
-                <tr class = "primaryTable"> <!--checkout-->
-                    <td>checkout</td>
-                    <td>git: Switches to a specified branch of the code</td>
-                </tr>
-                <tr class = "primaryTable"> <!--checkout -b-->
-                    <td>checkout -b</td>
-                    <td>git: Creates a new branch and it becomes the active working branch</td>
-                </tr>
-                <tr class = "primaryTable"> <!--cd command-->
-                    <td>cd</td>
-                    <td>Changes the current directory</td>
-                </tr>
-                <tr class = "primaryTable"> <!--Commit-->
-                    <td>commit</td>
-                    <td>git: Adds a comment about the changes that were made.</td>
-                </tr>
-                <tr class = "primaryTable"> <!--list contents of cwd-->
-                    <td>ls</td>
-                    <td>Lists contents (the files) of the current working directory</td>
-                </tr>
-                <tr class = "primaryTable"> <!--Options of the ls command-->
-                    <td></td>
-                    <td>
-                        <table class = "secondaryTable">
-                            <tr>
-                                <td>Options</td>
-                                <td>Meaning</td>
-                            </tr>
-                            <tr>
-                                <td>-l</td>
-                                <td>Displays the size of each item in bytes</td>
-                            </tr>
-                            <tr>
-                                <td>-h</td>
-                                <td>Displays size of file with the suffix</td>
-                            </tr>
-                            <tr>
-                                <td>-a</td>
-                                <td>Displays hidden files within a directory</td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr class = "primaryTable"> <!--make new directory-->
-                    <td>mkdir</td>
-                    <td>Makes a new directory at the current location</td>
-                </tr>
-                <tr class = "primaryTable"> <!--merge-->
-                    <td>merge</td>
-                    <td>git: Pulls copies into specified file to remove additional copies.</td>
-                </tr>
-                <tr class = "primaryTable"> <!--print working directory-->
-                    <td>pwd</td>
-                    <td>Prints the absolute path of your current working directory</td>
-                </tr>
-                <tr class = "primaryTable"> <!--pull-->
-                    <td>pull</td>
-                    <td>git: Adds contents from another file to the working file.</td>
-                </tr>
-                <tr class = "primaryTable"> <!--push-->
-                    <td>push</td>
-                    <td>git: Adds content from current working file to another file.</td>
-                </tr>
-                <tr class = "primaryTable"> <!--remote-->
-                    <td>remote</td>
-                    <td>git: Used when referencing a remote directory</td>
-                </tr>
-                <tr class = "primaryTable"> <!--status-->
-                    <td>status</td>
-                    <td>git: checks the current working directory, lists changes in documents</td>
-                </tr>
-                <tr class = "primaryTable"> <!--touch-->
-                    <td>touch</td>
-                    <td>Creates a new file in the current location</td>
-                </tr>
-                <tr class = "primaryTable"> <!--user directory-->
-                    <td>~/</td>
-                    <td>References the user folder within the computer</td>
-                </tr>
-                <tr class = "primaryTable"> <!--previous directory-->
-                    <td>../</td>
-                    <td>References the directory before the current directory</td>
-                </tr>
-            </table>
-        </div>
+        <nav class = "buttonGroup">
+            <a href = "cli.html">
+                <button id = "cliSwitcherButton" class = "switcherButton">CLI</button></a>
+            <a href = "html.html">
+                <button id = "htmlSwitcherButton" class = "switcherButton">HTML</button></a>
+            <button id = "cssSwitcherButton" class ="switcherButton" onclick = "cssSelectorChange()">CSS</button>
+        </nav>
+
     </body>
 </html>
