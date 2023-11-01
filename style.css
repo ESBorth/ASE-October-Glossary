@@ -119,3 +119,10 @@ html{
     max-width: 900;
     max-height: 12000;
 }
+.exampleCode{
+    width: 50%;
+    margin-left: 25%;
+    background-color: darkgray;
+    color: white;
+    
+}
