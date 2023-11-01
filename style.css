@@ -93,3 +93,9 @@ p{
     background-color:#04AA6D;
     color: white;
 }
+.gitTableRelation{
+    color: rgb(170, 170, 170);
+}
+html{
+    max-width: 1920px;
+}
