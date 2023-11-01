@@ -3,38 +3,93 @@ h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
-.classWorkOption{
-    background-color: lightgray;
-    max-width: 80%;
+nav{
+    position: relative;
+    left: 42%;
+    top: 0;
 }
-.classWorkOption:hover{
-    background-color: teal;
-    color: white;
+.switcherButton{
+    border-radius: 15px;
+    border: 0px; 
+    padding: 10px;
+    background-color: lightgrey;
 }
-#classWorkType{
-    border: 1px solid grey;
-    border-radius: 30px;
-    margin-left:45%;
-    padding-right: 10px;
+.switcherButton:hover{
+    background-color:#93f0ce;
 }
-.gitInfo{
-    margin-left: 5%;
-}
-.secondaryTable{
+.codeExample{
+    width:80%;
     margin-left: 10%;
 }
-.headerRow{
-    font-size: 13pt;
-    font-weight: medium;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.tableUL{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-td{
-    padding-right: 10px;
+.tableLI{
+    margin-left: 10px;
 }
-.primaryTable:hover{
-    background-color: lightgrey;
+h3{
+    margin-left: 10%;
+}
+h2{
+    margin-left: 5%;
+    display: inline-block;
+    font-family: arial;
+}
+.skipperButton{
+    display: inline-block;
+    margin-left: 10px;
+    border: 0;
+    border-radius: 15px;
+    background-color: lightgray;
+    font-size:8pt;
+    position:relative;
+    padding: 4px;
+}
+.skipperButton:hover{
+    background-color: grey;
+    color: white;
+}
+.semanticsTable, .gitInfoTable{
+    margin: auto;
+    border-collapse: collapse;
+    color: rgb(82,82,82)
+}
+.semanticsTable tr:nth-child(odd), .gitInfoTable tr:nth-child(odd){
+    background-color: lightgray;
+}
+.semanticsTable tr:hover, .gitInfoTable tr:hover{
+    background-color: #93f0ce;
     color: black;
 }
-.primaryTable{
-    color: grey;
+th{
+    background-color: #04AA6D;
+    color: white;
+    text-align: left;
+    padding-right: 15px;
+    font-family: arial;
+    font-weight: 500;
+    padding-left: 2px;
+    padding-bottom:2px;
+    padding-top: 2px;
+}
+.pBolder{
+    font-weight: bold;
+}
+p{
+    margin-left: 10%;
+}
+.hide{
+    display: none;
+}
+.show{
+    display:contents;
+}
+.activeSwitcher{
+    border-radius: 15px;
+    border: 0px; 
+    padding: 10px;
+    background-color:#04AA6D;
+    color: white;
 }
