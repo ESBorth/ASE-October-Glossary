@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Classwork Directory</title>
+        <link rel = "stylesheet" href = "style.css">
+        <script src = "main.js"></script>
+    </head>
+    <body>
+        <h1>Software Development Institute</h1>
+        <nav class = "buttonGroup">
+            <a href = "cli.html">
+                <button id = "cliSwitcherButton" class = "switcherButton">CLI</button></a>
+            <a href = "html.html">
+                <button id = "htmlSwitcherButton" class = "activeSwitcher">HTML</button></a>
+            <button id = "cssSwitcherButton" class ="switcherButton" onclick = "cssSelectorChange()">CSS</button>
+        </nav>
+        <div id = "infoTable">
+            <div id = "htmlInformationTable" class = "">
+                <h2>Getting Started</h2><button class="skipperButton">Skip</button>
+                <h3>HTML Boilerplate</h3>
+                <p>The boilerplate is the language that is needed to create a valid html page.</p>
+                <img src = "vs-code-html-boiler-plate-shortcut-windows.png" class = "codeExample">
+                <p>In the <span class = "pBolder">'head'</span> section, you record your link to your css (stylesheet) and if you have an external javascript file.</p>
+                <p>The <span class = "pBolder">'body'</span> section is where you will put your active code.</p>
+                <h2 id="semanticsSection">Semantics</h2><button class="skipperButton">Skip</button>
+                <table class = "semanticsTable">
+                    <tr> <!--table headers-->
+                        <th>Tag</th>
+                        <th>Relation</th>
+                        <th>Meaning</th>
+                    </tr>
+                    <tr> <!--anchors-->
+                        <td>a</td>
+                        <td>href</td>
+                        <td>Creates a hyperlink to webpages, files, email addresses, locations on the same page, or anything else a url can address</td>
+                    </tr>
+                    <tr> <!--line break-->
+                        <td>br</td>
+                        <td></td>
+                        <td>Adds a break; can be used in between text to move words to a new line</td>
+                    </tr>
+                    <tr> <!--buttons-->
+                        <td>button</td>
+                        <td></td>
+                        <td>Creates a clickable element that can either be used to trigger or link to a specific item/action. Other kinds of buttons:
+                            <ul class = "tableUL">
+                                <li>Submit: you use this as the button's "type"</li>
+                                <li>Reset: you use this as the button's "type"</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr> <!--class-->
+                        <td>class</td>
+                        <td></td>
+                        <td>'class' is a tag that you add to an element to give it specific styling properties in CSS.</td>
+                    </tr>
+                    <tr> <!--h1; headers-->
+                        <td>h1</td>
+                        <td></td>
+                        <td>Header 1; a predetermined header with its own styling. This styling can be overwritten. (h1, h2, h3, h4, h5, h6)</td>
+                    </tr>
+                    <tr><!--id-->
+                        <td>id</td>
+                        <td></td>
+                        <td>'id' is a tag that is given to an element so that specific css or javascript knows which element is impacted.</td>
+                    </tr>
+                    <tr> <!--image-->
+                        <td>img</td>
+                        <td>src</td>
+                        <td>The tag to insert an image from a specific source file. Use in junction with width and height to specify how large the file should be.</td>
+                    </tr>
+                    <tr> <!--input-->
+                        <td>input</td>
+                        <td>type</td>
+                        <td>A form element that allows the user to give direct input to the page.</td>
+                    </tr>
+                    <tr> <!--paragraph element-->
+                        <td>p</td>
+                        <td></td>
+                        <td>Paragraph tag; allows text to be broken into sections; can also be used to create new lines of text.</td>
+                    </tr>
+                    <tr> <!--option-->
+                        <td>option</td>
+                        <td></td>
+                        <td>Used inside the 'select' element. This tells the 'select' element that this is one of the 'selectables'</td>
+                    </tr>
+                    <tr> <!--select-->
+                        <td>select</td>
+                        <td></td>
+                        <td>Versatile form element; can be manipulated to serve your needs; examples include radio buttons or a drop-down</td>
+                    </tr>
+                    <tr><!--span-->
+                        <td>span</td>
+                        <td></td>
+                        <td>Helps target styling for a specific area of inline-elements</td>
+                    </tr>
+                    <tr> <!--type-->
+                        <td>type</td>
+                        <td></td>
+                        <td>This is the descriptor that will be associated with the element this tag is added to. For example, you may give an input element the type "text"
+                            <ul class="tableUL">
+                                <li>text</li>
+                                <li>radio</li>
+                                <li>checkbox</li>
+                                <li>hidden</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <div class = "anchorsExample">
+        
+        </div>
+        <div class = "buttonsExample">
+
+        </div>
+        <div class = "imageExample">
+
+        </div>
+        <div class = "selectExample">
+            
+        </div>
+        <div class = "optionsExample">
+
+        </div>
+    </body>
+</html>

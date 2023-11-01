@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Classwork Directory</title>
+        <link rel = "stylesheet" href = "style.css">
+        <script src = "main.js"></script>
+    </head>
+    <body>
+        <h1>Software Development Institute</h1>
+        <nav class = "buttonGroup">
+            <a href = "cli.html">
+                <button id = "cliSwitcherButton" class = "activeSwitcher">CLI</button></a>
+            <a href = "html.html">
+                <button id = "htmlSwitcherButton" class = "switcherButton">HTML</button></a>
+            <button id = "cssSwitcherButton" class ="switcherButton">CSS</button>
+        </nav>
+    <div class = "gitInfo" id = "gitInfoID">
+        <table id = "gitInfoTableID" class = "gitInfoTable">
+            <tr class = "headerRow">
+                <th class = "gitTableRelation">Related</th>
+                <th>Command</td>
+                <th>Result</td>
+            </tr>
+            <tr> <!--add-->
+                <td class = "gitTableRelation">git</td>
+                <td>add .</td>
+                <td>Prepares untracked items to be commited</td>
+            </tr>
+            <tr> <!--branch-->
+                <td class = "gitTableRelation">git</td>
+                <td>branch</td>
+                <td>Creates a new version of the code for you to edit, with its own history.</td>
+            </tr>
+            <tr> <!--cat command-->
+                <td class = "gitTableRelation"></td>
+                <td>cat</td>
+                <td>Displays the file content in the CLI</td>
+            </tr>
+            <tr> <!--checkout-->
+                <td class = "gitTableRelation">git</td>
+                <td>checkout</td>
+                <td>Switches to a specified branch of the code</td>
+            </tr>
+            <tr> <!--checkout -b-->
+                <td class = "gitTableRelation">git</td>
+                <td>checkout -b</td>
+                <td>Creates a new branch and it becomes the active working branch</td>
+            </tr>
+            <tr> <!--cd command-->
+                <td class = "gitTableRelation"></td>
+                <td>cd</td>
+                <td>Changes the current directory</td>
+            </tr>
+            <tr> <!--Commit-->
+                <td class = "gitTableRelation">git</td>
+                <td>commit</td>
+                <td>Adds a comment about the changes that were made.</td>
+            </tr>
+            <tr> <!--list contents of cwd-->
+                <td class = "gitTableRelation"></td>
+                <td>ls</td>
+                <td>Lists contents (the files) of the current working directory
+                    <ul class = "tableUL">
+                        <li>-l <span class = "tableLI"> Displays the size of each item in bytes</span></li>
+                        <li>-h <span class = "tableLI">Displays the size of the file with the suffix</span></li>
+                        <li>-a <span class = "tableLI">Displays the hidden files within a directory</span></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr> <!--make new directory-->
+                <td class = "gitTableRelation">mkdir</td>
+                <td>Makes a new directory at the current location</td>
+            </tr>
+            <tr> <!--merge-->
+                <td class = "gitTableRelation">git</td>
+                <td>merge</td>
+                <td>Pulls copies into specified file to remove additional copies.</td>
+            </tr>
+            <tr> <!--print working directory-->
+                <td class = "gitTableRelation"></td>
+                <td>pwd</td>
+                <td>Prints the absolute path of your current working directory</td>
+            </tr>
+            <tr> <!--pull-->
+                <td class = "gitTableRelation">git</td>
+                <td>pull</td>
+                <td>Adds contents from another file to the working file.</td>
+            </tr>
+            <tr> <!--push-->
+                <td class = "gitTableRelation">git</td>
+                <td>push</td>
+                <td>Adds content from current working file to another file.</td>
+            </tr>
+            <tr> <!--remote-->
+                <td class = "gitTableRelation">git</td>
+                <td>remote</td>
+                <td>Used when referencing a remote directory</td>
+            </tr>
+            <tr> <!--status-->
+                <td class = "gitTableRelation">git</td>
+                <td>status</td>
+                <td>Checks the current working directory, lists changes in documents</td>
+            </tr>
+            <tr> <!--touch-->
+                <td class = "gitTableRelation"></td>
+                <td>touch</td>
+                <td>Creates a new file in the current location</td>
+            </tr>
+            <tr> <!--user directory-->
+                <td class = "gitTableRelation"></td>
+                <td>~/</td>
+                <td>References the user folder within the computer</td>
+            </tr>
+            <tr> <!--previous directory-->
+                <td class = "gitTableRelation"></td>
+                <td>../</td>
+                <td>References the directory before the current directory</td>
+            </tr>
+        </table>
+    </div>
+    </body>
+</html>
