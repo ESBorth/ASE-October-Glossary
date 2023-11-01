@@ -1,3 +1,6 @@
+body {
+    overflow-x:hidden;
+}
 h1{
     font-size: xx-large;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -96,12 +99,23 @@ p{
 .gitTableRelation{
     color: rgb(170, 170, 170);
 }
-html{
-    max-width: 1920px;
-}
 .referenceUL{
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 20%;
+}
+.cssRefImg{
+    width: 50%;
+    margin-left:25%;
+}
+.cssRefImg:hover{
+    opacity: 75%;
+}
+.pushRight{
+    margin-left: 15%;
+}
+html{
+    max-width: 900;
+    max-height: 12000;
 }
